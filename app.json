@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Music Player",
+    "slug": "music-player",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/iosIcon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/betterSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#171717"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/34e98507-db67-4b30-8c4b-f52d63481f7a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      },
+      "bundleIdentifier": "app.musicplayer.simple",
+      "buildNumber": "1.0.1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/androidIcon.png",
+        "backgroundColor": "#171717"
+      },
+      "package": "app.musicplayer.simple",
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "34e98507-db67-4b30-8c4b-f52d63481f7a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
